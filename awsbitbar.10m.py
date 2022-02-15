@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/bin/python3
 
 from collections import defaultdict
 import datetime
@@ -8,7 +8,6 @@ import argparse
 
 import boto3
 import pytz
-
 
 """
 get AWS instance state by tag owner=$USER and display with bitbar.
